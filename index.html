@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--显示/隐藏选项卡的js文件-->
+	<link rel="stylesheet" href="css/main.css">
+	<meta charset="utf-8">
+	<meta name="Author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=.6, maximum-scale=.6, minimum-scale=.6">
+	<title>吴佳轶同学</title>
+</head>
+<body>
+	<div class="bg">
+		<div id="wrap">
+			<form  class="form_login" action="" method="post">
+			<br>
+			<h1 id="h1">吴佳轶同学</h1>
+	        <br>
+			<h4 id="h4">报价计算器</h4>
+			<h4 id="h4">内测版 V1.0.2</h4>
+			<input id="Input_F5" type='button' value='重置' onclick="location.reload()"> 
+			</form>
+			<br>
+			<br>
+			<div id="top">
+				<!--类型 A-->
+				<p id='Type_Class_A'>
+					<font>类型</font>
+					<span>宣传片</span>
+					<span>企业</span>
+					<span>节目</span>
+					<span>课程</span>
+					<span>游戏</span>
+				</p>
+				<!--类型 B1 宣传片-->
+				<p id='Type_Class_B_Trailer'>
+					<font>宣传</font>
+					<span>活动宣传片</span>
+					<span>产品宣传片</span>
+					<span>企业宣传片</span>
+					<span>概念宣传片</span>
+				</p>
+				<!--类型 B2 企业-->
+				<p id='Type_Class_B_Enterprise'>
+					<font>企业</font>
+					<span>年会</span>
+					<span>团建</span>
+					<span>展会</span>
+					<span>营销活动</span>
+				</p>
+				<!--类型 B3 节目-->
+				<p id='Type_Class_B_Program'>
+					<font>节目</font>
+					<span>vlog</span>
+					<span>专题片</span>
+				</p>
+				<!--类型 B4 课程-->
+				<p id='Type_Class_B_Curriculum'>
+					<font>课程</font>
+					<span>录屏课</span>
+					<span>直播课</span>
+					<span>录制课</span>
+				</p>
+				<!--类型 B5 游戏-->
+				<p id='Type_Class_B_Game'>
+					<font>游戏</font>
+					<span>QQ飞车</span>
+					<span>王者荣耀</span>
+					<span>绝地求生</span>
+					<span>英雄联盟</span>
+				</p>
+				<!--拍摄-->
+				<p id='Shot'>
+					<font>拍摄</font>
+					<span>无</span>
+					<span>拍摄</span>
+				</p>
+				<!--配音-->
+				<p id='Dubbing'>
+					<font>配音</font>
+					<input id="Input_Dubbing"  type="text" oninput="price()" value="0"> 字
+				</p>
+				<!--时间-->
+				<p id='Time'>
+					<font>时长</font>
+					<input id="Input_Time" type="text" oninput="price()" value="0"> 秒
+				</p>
+				
+			</div>
+			<div id="bottom">
+				<!--系统报价-->
+				<p>
+					折扣： 
+					<font>￥ <a id='price_Discount'> 0</a></font>
+					<br>
+					报价：
+					<font>￥ <s><a id='price_Original_Price'>0</a></s></font>
+				</p>
+				<br>
+				<!--甲方联系方式-->
+				联系方式： <input id="Input_Phone"  type="text" value=""> <br>
+				<!--提交按钮-->
+				<button onclick="Button_Phone_Information()">填写手机号，立享8.8折优惠</button>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_f2fb5194.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

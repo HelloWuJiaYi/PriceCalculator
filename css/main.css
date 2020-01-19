@@ -1,0 +1,167 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+/*输入框样式*/
+input {
+	font-size: 14px;
+	color: #666;
+	border: 1px solid #f60;
+	display: inline-block;
+	border-radius: 3px;
+	text-align: -webkit-right;
+	padding: 8px;
+	cursor: pointer;
+	width: 78px;
+}
+
+#Input_Phone {
+	text-align: center;
+	font-size: 16px;
+	width: 120px;
+}
+
+/*页面标题样式*/
+#h1 {
+	color: #616161;
+}
+
+#h4 {
+	color: #737373;
+}
+
+#wrap {
+	width: 600px;
+	height: 500px;
+	margin: 50px auto;
+}
+
+/*分隔线*/
+#top {
+	width: 600px;
+	height: 260px;
+	border-bottom: 1px solid #bbb;
+	font-family: 'Microsoft yahei';
+}
+
+#top p {
+	margin-bottom: 10px;
+}
+
+#top p font {
+	font-size: 15px;
+	color: #000;
+	margin-right: 30px;
+}
+
+#top p span {
+	font-size: 14px;
+	color: #666;
+	border: 1px solid #4074e1;
+	display: inline-block;
+	border-radius: 3px;
+	margin-bottom: 0px;
+	margin-left: -1px;
+	text-align: center;
+	padding: 8px;
+	cursor: pointer;
+	min-width: 80px;
+}
+
+span:hover {
+	background-color: #e2f0ff;
+}
+
+#top p span.on {
+	border: 1px solid #4074e1;
+	padding: 8px;
+	background-color: #c1deff;
+}
+
+#bottom {
+	width: 600px;
+	height: 159px;
+	padding-top: 20px;
+	font-family: 'Microsoft yahei';
+}
+
+#bottom p font {
+	color: #f60;
+	font-size: 22px;
+	margin-right: 20px;
+}
+
+#bottom a font {
+	color: #ababab;
+	font-size: 17px;
+	margin-right: 20px;
+}
+
+#bottom p a {
+	font-size: 22px;
+	color: #ff6600;
+}
+
+#bottom p a i {
+	margin: 0 5px;
+	color: #90c;
+}
+
+#Input_F5 {
+	background: #4074e1;
+	width: 50px;
+	height: 40px;
+	font-family: 'Microsoft yahei';
+	text-align: center;
+	margin-top: 10px;
+	font-size: 15px;
+	color: #fff;
+	border: none;
+}
+/*按钮样式*/
+#bottom button {
+	width: 330px;
+	height: 50px;
+	font-family: 'Microsoft yahei';
+	margin-top: 20px;
+	font-size: 20px;
+	background: #4074e1;
+	color: #fff;
+	border: none;
+}
+
+.form_login {
+	margin: auto;
+	width: 600px;
+	height: 190px;
+	top: 120px;
+	left: 300px;
+	border-radius: 10px;
+	background: rgba(186,186,186,0.4);
+	text-align: center;
+}
+
+.bg {
+	background: #E9E9E9 url(../images/bg.jpg) 50% 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-animation: flow 16s linear infinite;
+	animation: flow 16s linear infinite;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1
+}
+
+@keyframes flow {
+	0% {
+		background-position: 50% 0
+	}
+
+	100% {
+		background-position: 50% -250px
+	}
+}
